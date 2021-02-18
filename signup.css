@@ -1,0 +1,136 @@
+main{
+    background-color: #f1e6f7;
+    margin-top:-10px ;
+    padding: 5% 15% ;
+}
+
+form label{
+    display: block;
+    margin-top:25px;
+    padding-bottom:5px ;
+}
+
+input{
+ width:100% ;
+ padding:15px 10px ;
+ border: 1px solid rgb(70, 5, 100);
+ border-bottom: 4px solid rgb(70, 5, 100) ;
+ border-radius: 9px 9px 0 0;
+ background-color:rgba(184, 128, 247, 0.297) ;
+}
+
+.radio-input {
+    width: 15px;
+    height: 15px;
+    margin: 5px 0;
+  }
+
+  .color-input{
+      padding-top: 0;
+      padding-bottom:0 ;
+      height: 50px;        
+  }
+
+
+  fieldset{
+
+    width: 100%;
+    padding-right:0 ;
+    margin-top:20px ;
+    background-color:rgba(184, 128, 247, 0.297);
+    border: 1px solid rgb(70, 5, 100);
+ border-bottom: 4px solid rgb(70, 5, 100) ;
+ border-radius: 9px 9px 0 0;
+ background-color:rgba(184, 128, 247, 0.297) ;
+  }
+
+
+ form select{
+     width: 102%;
+     height: 50px;
+     padding-right:0 ;
+     background-color:rgba(184, 128, 247, 0.297) ;
+     border: 1px solid rgb(70, 5, 100);
+     border-bottom: 4px solid rgb(70, 5, 100) ;
+     border-radius: 9px 9px 0 0;
+     background-color:rgba(184, 128, 247, 0.297) ;
+ }
+
+ .dgree{
+     height: 100px;
+ }
+
+ option {
+     padding: 2px 0 0 10px;
+ }
+
+ textarea{
+    width: 102%;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px ;
+    background-color:rgba(184, 128, 247, 0.297);
+    border: 1px solid rgb(70, 5, 100);
+    border-bottom: 4px solid rgb(70, 5, 100) ;
+    border-radius: 9px 9px 0 0;
+    background-color:rgba(184, 128, 247, 0.297) ;
+
+ }
+
+ textarea:focus{ 
+    box-shadow: 1px 1px 20px 1px rgb(198, 204, 207) inset;
+    background-color: #ffffff;
+ }
+
+ legend {
+    border: 1px solid #000;
+    border-bottom: 4px solid #000 ;
+    border-radius: 9px 9px 0 0;
+    padding: 7px 15px;
+    background-image: linear-gradient(90deg, rgba(119, 116, 165, 0.3) 0%,
+     rgba(224, 68, 241, 0.3) 35%, rgba(65, 215, 245, 0.3) 100%);
+ }
+
+ input:focus {
+    box-shadow: 1px 1px 15px 1px rgb(198, 204, 207) ;
+    background-color: #ffffff;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 102%;
+    
+  }
+
+  .signup-button{
+      padding: 10px;
+      width: 20%;
+      margin-top: 15px;
+      background-image: linear-gradient(90deg, rgba(119, 116, 165, 0.5) 0%,
+      rgba(224, 68, 241, 0.5) 35%, rgba(65, 215, 245, 0.5) 100%);
+     font-size:20px ;
+     border-radius: 5px;
+  }
+
+.signup-button:hover{
+    background-color: rgba(8, 3, 7, .7);
+    color: rgb(240, 147, 224);
+}
+
+.reset-button:hover{
+    background-color: rgba(8, 3, 7, .7);
+    color: rgb(240, 147, 224);
+}
+
+
+
+  .reset-button{
+    padding: 10px;
+    width: 20%;
+    margin-top: 15px;
+    background-image: linear-gradient(90deg, rgba(119, 116, 165, 0.5) 0%,
+     rgba(224, 68, 241, 0.5) 35%, rgba(65, 215, 245, 0.5) 100%);
+     font-size: 20px;
+     border-radius: 5px;
+  }

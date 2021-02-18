@@ -1,0 +1,133 @@
+html{
+    font-family: Helvetica, Arial, Sans-Serif;;
+    
+}
+
+
+
+*{ margin: 0;   }
+
+
+header img{
+    height: 80px;
+}
+
+li img{
+    height: 15px;
+}
+
+header {display: flex;
+    padding: 0 15% ;
+    margin: 10px 0;  
+    margin-top: 0px;
+    border-top: 10px solid #270a21;
+}
+
+h1{  padding-top:5px ;
+    padding-left:10px ;
+     color:#080307;
+     align-self: flex-end;
+    }
+
+
+.navlist-item{ 
+    display: inline;
+    padding: 10px;
+    color: #C39FED;
+}
+
+.navlist-item a { color: #C39FED; }
+
+nav{
+   
+    list-style-type: none;
+ 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 10px;
+    margin: 0;
+    display: block;
+    padding-left:15%;
+     position: sticky;
+     top: 0;
+     margin-bottom: 10px;
+     
+}
+
+.dropdown{
+    position: absolute;
+    top: 42px;
+  left: 38.2%;
+    list-style-type: none;
+    text-align: left;
+    display: none;
+    overflow: visible;
+
+    
+}
+
+.dropdown-items{
+    position: relative;
+}
+
+.layout:hover .dropdown {
+    display: block;
+    background-color: #281B4A;
+    box-shadow: 2px 2px 10px  rgb(26, 137, 173);
+    width: 270px;
+    padding:5px ;
+  }
+
+ 
+  .layout:hover .dropdown li{
+      padding-top:5px ;
+  }
+
+
+  .navlist-item:hover {
+    background-color: rgba(8, 3, 7, .5);
+    box-sizing: content-box;
+}
+
+.nav-item,.dropdown-items{
+ text-decoration: none;   }
+
+
+.layout li:hover{
+    background-color: rgba(8, 3, 7, .5);
+    padding: 3px;
+}
+
+
+
+ footer{
+    border-top: 10px solid#270a21;
+    padding: 0 15% ;
+    font-size: 15px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(109,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #C39FED;
+ }
+
+
+ table{padding: 5% 0 3% 0;
+     
+     width: 100%;
+ }
+
+ .footer-link{color: #C39FED;}
+
+
+ th{ text-align: left;
+    font-weight: bold;
+    color:#fff;
+ padding-bottom:5px ;
+
+}
+
+  td { font-weight: lighter;
+}
+
+ tr td a{
+     text-decoration: none;
+ }
+
+ .footer-link:hover{color: #fff;}

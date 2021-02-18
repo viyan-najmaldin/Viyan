@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" href="image/img.jpg">
+    <title>Sign Up</title>
+</head>
+<body>
+    
+    <header> 
+        <img src="image/img1.jpg" />
+         <h1>Viyan Najmadin Nasradin </h1>
+        
+     </header> 
+     
+         <nav>
+             <ul class="navlist">
+                 <li class="navlist-item"><a class="nav-item" href="home.html">Home</a></li>
+                 <li class="navlist-item"><a class="nav-item" href="blog.html">Blog</a></li>
+                 <li class="navlist-item"><a class="nav-item" href="schedul.html">Schedule</a></li>
+                 <li class=" navlist-item layout">
+                     <label class="label" href="layout.html">Layout Desgin</label>
+                     <img src="image/60995.png" alt="dropdown">
+     
+                 <ul class="dropdown" >
+                     <li><a class="dropdown-items" href="float.html">Float Layout with Side nav</a></li>
+                     <li><a class="dropdown-items" href="flexbox.html">Flexbox Layout with Side nav </a></li>
+                     <li><a class="dropdown-items" href="grid.html">Blog Grid View</a></li>
+                 
+                 </ul>
+     
+                 </li>
+                 <li class="navlist-item"><a class="nav-item" href="signup.html">Sign Up</a></li>
+                 <li class="navlist-item"><a class="nav-item" href="signin.html">Sign In</a></li>
+             </ul>
+         </nav>
+
+
+
+         <main>
+       
+
+            <h2>Signup Form</h2>
+
+<form>
+
+    <label for="Username">Username</label>
+    <input type="text" placeholder="Username" id="Username" />
+
+    <label for="Full Name">Full Name</label>
+    <input type="text" placeholder="Full Name" id="Full Name" />
+
+    <label for="email">Email</label>
+    <input type="email" placeholder="domain@example.com" id="email" />
+
+    <label for="phone-no">Telephone</label>
+    <input type="tel" placeholder="00964 000 000 00 00" id="phone-no" />
+
+
+    <label for="pass">Password</label>
+    <input type="password" placeholder="Password" id="pass" />
+
+
+    <label for="">Date of Birth</label>
+    <input type="date" />
+
+    <label>Profile Color</label>
+    <input class="color-input" type="color" value="#9900cc" />
+
+
+    <fieldset>
+        <legend>Martial Status</legend>
+        <label for="single"><input class="radio-input" type="radio" id="single" name="marsial status"  value="single"/>
+        Single</label>
+        <label for="married"><input  class="radio-input"  type="radio" id="married" name="marsial status" value="married"/>
+        Married</label>
+         <label for="private"><input class="radio-input"  type="radio"  id="private"  name="marsial status" value="private" />
+       It's Private</label>
+      </fieldset>
+
+
+
+    <label for="child">No. Children</label>
+    <select name="child" id="child">
+        <option value="none">None</option>
+        <option value="1">one</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+        <option value="mpre">more...</option>
+    </select>
+
+
+    <label for="degree">Choose Your Degree</label>
+        <select class="" multiple name="degree" id="degree">
+          <option value="Dipoma">Dipoma</option>
+          <option value="Bchelore-science">Bchelore of Science</option>
+          <option value="Bchelore-art">Bchelore of Art</option>
+          <option value="high-dipoma">High Dipoma</option>
+          <option value="master-science">Master of Science</option>
+          <option value="master-art">Master of Art</option>
+        </select>
+
+
+    <label for="more">About Yourself</label>
+        <textarea placeholder="About Yourself" name="more"></textarea>
+
+
+    <label for="">Upload your CV</label>
+        <input class="file-input" type="file" />
+
+
+    <fieldset>
+        <legend>Gender</legend>
+        <label  for="male">
+          <input class="radio-input" type="radio" id="male" name="gender" value="male"/> Male</label>
+          
+          <label for="female">
+          <input class="radio-input" type="radio" id="female" name="gender" value="female"/> Female</label>  
+    </fieldset>
+
+
+
+    <fieldset>
+          <legend>Agreement</legend>
+          
+          <label>Please read the terms and agreements</label>
+          <label  for="agreement"><input class="radio-input" type="checkbox" name="agreement" value="male"/>
+          I have read all the terms</label>
+         
+          <label for="agreement">
+          <input class="radio-input" type="checkbox" name="agreement" value="female"/>
+          Yes I'm agree</label>
+    </fieldset>
+
+
+
+    <div class="buttons">
+              <button class="signup-button">Sign Up</button>
+              <button class="reset-button">Reset</button>
+    </div>
+
+
+
+
+
+</form>
+
+
+
+
+
+         </main>
+
+
+
+
+         <footer>
+            <table class="footer-bar">
+            <tr>
+                <th>Sitemap</th>
+                <th>Term and Quick Links</th>
+                <th>Address and Contact</th>
+            </tr>
+            
+            <tr>
+                <td><a class="footer-link" href="home.html">Home</a></td>
+                <td>Term of usage</td>
+                <td><address>City, Governorate, Country</address></td>
+            </tr>
+            
+            <tr>
+                <td><a class="footer-link" href="about.html">About</a></td>
+                <td><a class="footer-link" href="link1">Link 1</a></td>
+                <td><address>0964 000 000 0000</address></td>
+            </tr>
+            
+            <tr>
+                <td><a class="footer-link" href="contact.html">Contact</a></td>
+                <td><a class="footer-link" href="link2">Link 2</a></td>
+                <td>Email: example@domain.com</td>
+            </tr>
+            
+            <tr>
+                <td><a class="footer-link" href="login.html">Login</a></td>
+                <td><a class="footer-link" href="link3">Link 3</a></td>
+            </tr>
+            
+            </table>
+            
+            
+            </footer>
+    
+
+</body>
+</html>

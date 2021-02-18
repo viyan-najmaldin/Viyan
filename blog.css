@@ -1,0 +1,153 @@
+main{
+    background-color: #f1e6f7;
+    margin-top:-10px ;
+    padding: 0 15% ;
+}
+
+.first-image, .third-image{
+    width: 50%;
+    float: left;
+    margin: 5px 10px 5px 0;
+}
+
+.second-image{
+    width: 50%;
+    float: right;
+    margin: 5px 0 5px 10px;   
+}
+
+
+article{
+    padding: 3% 0;
+}
+
+.paregrapgs p{
+    padding-bottom: 10px;
+    text-align: justify;   
+}
+
+.name{
+    color: rgb(171, 28, 184);
+}
+
+.name:hover{
+    color: rgb(89, 7, 97);
+}
+
+
+.paregrapgs{
+    margin :0 10px ;
+}
+
+.blog-header{
+   padding-top: 10px ;
+}
+
+.auther{
+    font-weight: lighter;
+    font-size: 15px;
+    margin :0 10px ;
+    padding-bottom: 10px;
+    color: rgb(180, 125, 185);
+}
+
+
+h3{ margin :5px 10px ;
+padding-bottom: 3px ; }
+
+
+
+
+/******** float ********/
+
+
+.float-desgin{ float: right;
+    width: 35%;
+    height: 163px;
+    background-image: linear-gradient(90deg, rgba(119, 116, 165, 0.3) 0%,
+    rgba(224, 68, 241, 0.3) 35%, rgba(65, 215, 245, 0.3) 100%);
+    border-top: 10px solid #270a21;
+    margin-top: 20px;
+    padding: 15px 10px;}
+
+.float-article{
+
+    width: 60%;
+    float: left;
+    margin: 70px 0;
+}
+
+
+ .clear-both{
+    clear: both;
+    display: table;
+ }
+
+ .layout-list-item{
+     list-style-type:none ;
+     padding: 3% 0;
+     padding-left:0 ;
+     text-align: left;
+ }
+
+ .layout-list-link{
+     text-decoration: none;
+     color: rgb(133, 5, 145);
+     
+ }
+
+ .layout-list-link:hover{
+     color: #270a21;
+ }
+
+ .layout-list{
+     padding-left:0 ;
+ }
+
+.layout-image{
+     
+     padding-left:10px; 
+    width: 97%;
+ }
+
+
+
+
+/******** flexbox ********/
+
+ .flexbox-main{
+     display: flex;
+ }
+
+ .flexbox-desgin{
+    background-image: linear-gradient(90deg, rgba(119, 116, 165, 0.3) 0%,
+    rgba(224, 68, 241, 0.3) 35%, rgba(65, 215, 245, 0.3) 100%);
+   border-top: 10px solid #270a21;
+   width: 35%;
+   margin-top: 20px;
+    padding: 15px 10px;
+
+ }
+
+ .container-flexbox{
+     width: 60%;
+     margin: 70px 0;
+     padding-right: 10px ;
+    
+ }
+
+ 
+
+ /**********grid***********/
+
+ .grid-container{
+    display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 50px;
+  
+ }
+
+ .grid-article p{padding-left:10px ;}
+
+
+

@@ -1,0 +1,36 @@
+main{
+    background-color: #f1e6f7;
+    margin-top:-10px ;
+    padding: 5% 15% ;
+}
+
+.schedule-header{
+    padding-bottom: 15px ;
+}
+
+.seminar-schdule {
+  border-collapse: collapse;
+  text-align: center;
+  color:#500257;
+}
+.table-header td {
+  border: 2px solid #0a71f8;
+  
+  padding: 10px;
+  border-bottom: 4px #0a71f8 solid;
+}
+
+.table-header{background-image: linear-gradient(90deg, rgba(119, 116, 165, 0.5) 0%,
+     rgba(224, 68, 241, 0.5) 35%, rgba(65, 215, 245, 0.5) 100%);
+     ;
+}
+
+
+.table-body td {
+  border: 2px solid #0a71f8;
+  padding: 10px;
+}
+
+.bold-header, .bold-header td{
+    font-weight: bold;
+}
